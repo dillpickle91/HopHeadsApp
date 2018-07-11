@@ -1,0 +1,1 @@
+var navButton=document.getElementById("nav-toggle-button");function toggleNavDisplay(e){e.preventDefault(),document.getElementById("nav-links").classList.toggle("showNav")}navButton.addEventListener("click",toggleNavDisplay),window.sr=ScrollReveal(),sr.reveal(".main_nav",{duration:600,origin:"top"}),sr.reveal("#breweries",{duration:2e3},50);
